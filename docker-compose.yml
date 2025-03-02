@@ -1,0 +1,7 @@
+﻿services:
+  rag-convo-kb-model:
+    build: .
+    ports:
+      - "3002:4173"
+    volumes:
+      - .:/app
